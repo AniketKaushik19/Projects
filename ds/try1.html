@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .cont {
+            background: rgb(118, 118, 118);
+            height: 12vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .du {
+            display: flex;
+            position: absolute;
+            font-size: 12px;
+            left:79px;
+            top:45px;
+            background: #000;
+            color: rgb(178, 178, 179);
+        }
+        .thumb{
+            display: flex;  
+            margin: 12px;
+        }
+        .ch{
+            display: flex;
+            position: absolute;
+            top: 45px;
+            left: 123px;
+            font-size: small;
+        }
+        .date{
+            display: flex;
+            position: absolute;
+            top: 47px;
+            left: 210px;
+            font-size:x-small;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+        <img class="thumb" alt="1" width="100px">
+        <div class="title"></div>
+        <span class="du"></span>
+        <span class="ch"></span>
+        <div class="date"></div>
+    </div>
+    <script>
+        let thum = document.querySelector(".thumb")
+        thum.src = "wal2.jpg";
+        let title = document.querySelector(".title")
+        title.innerHTML = "Introduction to Nature"
+        let du = document.querySelector(".du")
+        du.innerHTML = "10:30"
+        let ch = document.querySelector(".ch")
+        ch.innerHTML = "codewithAniket"
+        let date = document.querySelector(".date")
+        date.innerHTML = "23 month ago"
+
+    </script>
+</body>
+
+</html>

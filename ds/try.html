@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        height: 70vh;
+        background: #000;
+    }   
+    .box{       
+        height: 50px;
+        width:50px;
+        background: rgb(61, 249, 40);
+        position:fixed;
+        border-radius: 100px;
+        bottom: 0;
+        animation-name:animx , animy;
+            animation-duration: 10s;
+            animation-iteration-count:infinite; 
+            animation-timing-function:ease-in-out;
+          
+        }
+
+        .btn{
+        width:100px;
+    }
+    @keyframes animx {
+        0%{
+            left:0;
+        }
+        20%{
+            left: 150px;
+        }
+        40%{
+            left: 350px;
+        }
+        60%{
+            left: 550px;
+        }
+        80%{
+            left: 750px;
+        }
+        90%{
+            left: 950px;
+        }
+        100%{
+            left: 1050px;
+        }
+    }
+    @keyframes animy {
+        0%{
+            bottom: 0;
+        }
+        20%{
+            bottom: 200px;
+        }
+        40%{
+            bottom: 0;
+        }
+        60%{
+            bottom: 200px;
+        }
+        80%{
+            bottom:0;
+        }
+        90%{
+            bottom:200px;
+        }
+        100%{
+            bottom: 0;
+        }
+    
+    }
+</style>
+</head>
+<body>
+    <button class="btn"><a href="/Cyber Security.pptx">Download now</a></button>
+        <div class="box">
+        </div>
+        <!-- /* animation-delay: -4s; */
+            /* animation-delay: 2s; */
+             /* animation-timing-function:ease-in; */
+        /* animation-fill-mode:backwards */  
+    /* animation:anim 5s infinite; */ -->
+</body>
+</html>

@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ffd0d0;
+}
+
+nav{
+    font-family: 'Recursive', sans-serif;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 38px;
+    background: #000;
+    color:aliceblue;
+}
+
+nav ul li{
+    margin: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:aliceblue
+}
+.brand img{
+    width: 107px;
+    height:40px;
+    padding: 12px;
+}
+.brand{
+    display: flex;
+    align-items:center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.container{
+    display: flex;
+    height:73vh;
+    background:black url("bg.jpg") no-repeat;
+    background-size:cover;
+    color:antiquewhite;
+    margin:23px auto;
+    border-radius: 12px;
+    width:75%;
+    padding: 12px;
+    overflow: hidden auto;
+}    
+.icons{
+    margin-top: 11px;
+}
+.progressbar{  
+    width:75vw;
+    text-align: center;
+    cursor:pointer;
+}
+.icons i{
+    cursor:pointer;
+}
+.songitem img{
+    height:30px;
+    border-radius: 9px;
+    margin-right: 4px;
+}
+.songitem{
+    width:20vw; 
+    background: hsl(126, 21%, 91%);
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    border-radius: 13px;
+    margin: 23px;
+    padding: 4px;
+    align-items: center;
+    justify-content: space-between;
+}
+.songitem span{
+    margin-right: 14px;
+}
+.gif img{
+    position: absolute;
+    height: 31px;
+    width: 7vw;
+    left: 12vw;
+    top: 39px;
+    left:12px
+}
+.gif span{
+    position: absolute;
+    left: 15vw;
+    top: 5vw;
+    margin-top:10px;
+    height:31px;
+    width:21vw;
+
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    background: #000;
+    color: aliceblue ;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    bottom:0;
+}
+.footer{
+    background: #d21a1a;
+    height: 5;
+    font-style: italic;
+    /* font-weight: 700; */
+    font-size: 20px;
+
+}
+
+@media screen and (max-width:475px) and (min-width:427px){
+    nav ul {
+        display: flex;
+        background: #ff2d2d;
+        /* flex-direction: column; */
+        height: 8vh;
+    }  
+    nav{
+        width:100%;
+        background: #ff2d2d;
+
+    }
+    nav ul li{
+        margin:7px;
+    }
+    .brand img {
+        padding: 2px;
+    }
+    .songitem{
+        width:51vw;
+    }
+
+}
+@media screen and (max-width:426px) and (min-width:377px){
+    nav ul {
+        display: flex;
+        background: #ff2d2d;
+        height: 8vh;
+    }  
+    nav{
+        width:100%;
+        background: #ff2d2d;
+
+    }
+    nav ul li{
+        margin:7px;
+    }
+    .brand img {
+        padding: 2px;
+    }
+    .songitem{
+        width:51vw;
+    }
+
+}
+@media screen and (max-width:376px) and (min-width:321px){
+    nav ul {
+        display: flex;
+        background: #ff2d2d;
+        /* flex-direction: column; */
+        height: 8vh;
+    }  
+    nav{
+        width:100%;
+        background: #ff2d2d;
+
+    }
+    nav ul li{
+        margin: 7px;
+    }
+
+    .brand img {
+        padding: 2px;
+        width: 62px;
+    }
+    .songitem{
+        width:51vw;
+    }
+}
+@media screen and (max-width:320px) and (min-width:0px){
+    nav ul {
+        display: flex;
+        background: #ff2d2d;
+        height: 8vh;
+    }  
+    nav{
+        width:100%;
+        background: #ff2d2d;
+
+    }
+    nav ul li{
+        margin: 5px;
+    }
+    .brand img {
+        padding: 2px;
+        width:67px;
+    }
+    .songitem{
+        width:51vw;
+    }
+
+
+}
+about{
+    display: flex;
+    flex-direction:column;
+    background-color: blue;
+    margin: 12px;
+    padding: 11px;
+}
+p{
+  background-color: #4ef4ac;
+  border-radius: 20px;
+}
+.contact{
+  margin: 18px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
